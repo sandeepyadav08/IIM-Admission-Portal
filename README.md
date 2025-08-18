@@ -3,7 +3,6 @@
 This application provides authentication and dashboard functionality for PGP, PhD, EPhD, and EMBA programs with comprehensive applicant management and scheduling features.
 
 ## Features
-
 ### 🏠 Home Dashboard
 
 - Overview of all programs (PGP, PhD, EPhD, EMBA)
@@ -109,6 +108,18 @@ npm start
 - `DELETE /api/schedule/:id` - Delete event
 - `GET /api/schedule/calendar/:year/:month` - Get calendar view events
 - `GET /api/schedule/upcoming/week` - Get upcoming events (next 7 days)
+## Screenshot
+![1login](https://github.com/user-attachments/assets/11ccd606-1a23-4c41-b5b2-4cee7127504c)
+
+![2forgot password](https://github.com/user-attachments/assets/4e036dd1-4f40-4c06-8632-8a44c0bdd5be)
+
+![3deashboard screen](https://github.com/user-attachments/assets/0e329840-f40b-474b-879d-e13c1d510478)
+
+![4menu screen](https://github.com/user-attachments/assets/1a8804a0-c6a3-494d-9064-983ffce83a8f)
+
+![5setting](https://github.com/user-attachments/assets/63642d6a-748b-4ac8-82af-044d69b90e01)
+
+![6notification](https://github.com/user-attachments/assets/9328a958-e8d9-469c-8a85-6b8551d4a3ee)
 
 ## Troubleshooting
 
