@@ -1,17 +1,29 @@
-# AuthApp Dashboard
+# 🎓 IIM Admission Dashboard
 
-This application provides authentication and dashboard functionality for PGP, PhD, EPhD, and EMBA programs with comprehensive applicant management and scheduling features.
+A comprehensive **administration portal** for managing student admissions at IIM across multiple programs:
 
-## Features
+- **PGP** (Post Graduate Program)
+- **PhD**
+- **Executive PhD (EPhD)**
+- **Executive MBA (EMBA)**
+
+This system enables administrators to:
+
+- Manage applicant registration & authentication
+- Track and review applications
+- Handle program-specific applicant workflows
+- Schedule interviews, exams, and workshops
+- Access real-time analytics & dashboards
+
+## ✨ Features
+
 ### 🏠 Home Dashboard
-
 - Overview of all programs (PGP, PhD, EPhD, EMBA)
 - Quick statistics (Total Applications, Admitted, Under Review)
 - Program-wise application breakdown
 - Recent activities and important dates
-
+  
 ### 👥 Applicants Management
-
 - Comprehensive applicant list with pagination
 - Advanced search and filtering by:
   - Program (PGP, PhD, EPhD, EMBA)
@@ -21,20 +33,20 @@ This application provides authentication and dashboard functionality for PGP, Ph
 - Real-time data updates
 
 ### 📅 Schedule Management
-
 - Calendar-based event management
 - Add, edit, and delete events
 - Event types: Interview, Meeting, Presentation, Workshop, Exam
 - Program-specific event association
 - Date navigation and filtering
 
-## Setup Instructions
+## ⚙️ Setup Instructions
 
 ### Database Setup
 
-1. Make sure MySQL is running and accessible with the credentials in `backend/config/db.js`
-2. Initialize the database tables:
+1. Make sure **MySQL** is running and accessible with the credentials in `backend/config/db.js`.
+2. Run these initialization scripts in order:
 
+```bash
 ```bash
 # Initialize the main database tables
 node backend/verify-db.js
@@ -121,16 +133,16 @@ npm start
 
 ![6notification](https://github.com/user-attachments/assets/9328a958-e8d9-469c-8a85-6b8551d4a3ee)
 
-## Troubleshooting
+🛠 Troubleshooting
 
 If you're seeing data in Postman but not in the frontend:
-
 1. Check that the API URL in `frontend-expo/config.js` is correct
 2. Make sure all database tables are properly initialized
 3. Check browser console for any API errors
 4. Verify that the backend server is running and accessible from the frontend
 
-# TO Start app
+▶️ Quick Start
+# Frontend
 1. cd AuthApp/frontend-expo
 2. npm start
 # Backend
