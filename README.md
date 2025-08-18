@@ -119,9 +119,9 @@ If you're seeing data in Postman but not in the frontend:
 3. Check browser console for any API errors
 4. Verify that the backend server is running and accessible from the frontend
 
-# TO run app
-# cd AuthApp/frontend-expo
-# npm start
-# backendan
-# cd AuthApp/backend
-# node server.js
+# TO Start app
+1. cd AuthApp/frontend-expo
+2. npm start
+# Backend
+1. cd AuthApp/backend
+2. node server.js
