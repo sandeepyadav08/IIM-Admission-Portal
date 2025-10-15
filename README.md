@@ -120,7 +120,6 @@ npm start
 - `DELETE /api/schedule/:id` - Delete event
 - `GET /api/schedule/calendar/:year/:month` - Get calendar view events
 - `GET /api/schedule/upcoming/week` - Get upcoming events (next 7 days)
-  https://github.com/user-attachments/assets/a31c7b2a-70da-4354-84ba-bb6ccbcc3091
 ## Screenshot
 ![1login](https://github.com/user-attachments/assets/11ccd606-1a23-4c41-b5b2-4cee7127504c)
 
