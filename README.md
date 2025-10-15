@@ -1,21 +1,13 @@
 # 🎓 IIM Admission Dashboard
 
-A comprehensive **administration portal** for managing student admissions at IIM across multiple programs:
+A full-featured administration portal for managing student admissions at IIM across multiple programs: PGP, PhD, Executive PhD (EPhD), and Executive MBA (EMBA).
 
-- **PGP** (Post Graduate Program)
-- **PhD**
-- **Executive PhD (EPhD)**
-- **Executive MBA (EMBA)**
-
-This system enables administrators to:
-
-- Manage applicant registration & authentication
-- Track and review applications
-- Handle program-specific applicant workflows
-- Schedule interviews, exams, and workshops
-- Access real-time analytics & dashboards
+- The system enables admins to:
+- Manage applicant registration, authentication, and workflows
+- Track applications, fee payments, and interview schedules
+- Access real-time analytics and dashboards for all programs
 ## 🎥 Watch Demo Video  https://github.com/user-attachments/assets/a31c7b2a-70da-4354-84ba-bb6ccbcc3091
-
+## Key Features
 ### 🏠 Home Dashboard
 - Overview of all programs (PGP, PhD, EPhD, EMBA)
 - Quick statistics (Total Applications, Admitted, Under Review)
