@@ -14,7 +14,7 @@ This system enables administrators to:
 - Handle program-specific applicant workflows
 - Schedule interviews, exams, and workshops
 - Access real-time analytics & dashboards
-
+## video Link  https://github.com/user-attachments/assets/a31c7b2a-70da-4354-84ba-bb6ccbcc3091
 ## ✨ Features
 
 ### 🏠 Home Dashboard
